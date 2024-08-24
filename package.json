@@ -1,0 +1,13 @@
+{
+  "name": "ping-cron-job",
+  "version": "1.0.0",
+  "description": "A simple cron job to ping a website",
+  "main": "ping.js",
+  "scripts": {
+    "start": "node ping.js"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.0",
+    "https": "^1.0.0"
+  }
+}
