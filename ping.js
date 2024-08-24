@@ -2,7 +2,7 @@ const https = require('https');
 const http = require('http');
 const cron = require('node-cron');
 
-const pingUrl = 'https://hisaul.com'; // Replace with the URL you want to ping
+const pingUrl = 'https://temis-dev.onrender.com/'; // Replace with the URL you want to ping
 
 function pingWebsite() {
   https.get(pingUrl, (res) => {
